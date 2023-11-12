@@ -1,0 +1,69 @@
+.listOfImage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 75px;
+}
+
+.smallImageDiv {
+  margin: 10px 20px 10px 20px;
+  width: 150px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.smallImage {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bigImageDiv {
+  width: 700px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.leftTurn, .rightTurn {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigImage {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.choosenElem {
+  border: solid 1px blue;
+  box-sizing: border-box;
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border: solid 1px #000;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.grayCircle {
+  background-color: gray;
+}/*# sourceMappingURL=style.css.map */
